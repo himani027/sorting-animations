@@ -12,6 +12,11 @@ The workflow should be easy to understand by anyone and in next part we want use
 * jQuery
 * HTML CSS
 
+### ** Number of member/s required ** 
+3 
+
+
+
 **Start Date:** 01-09-2020  
 
 **Expected Deadline:** 30-09-2020
