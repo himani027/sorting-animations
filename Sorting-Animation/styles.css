@@ -1,0 +1,93 @@
+* {
+	font-family: 'Candara';
+}
+
+body {
+    background-image: linear-gradient(#fcba, #abe);
+    height: 39.5em;
+}
+
+.center {
+	justify-content: center;
+	align-items: center;
+	text-align: center;	
+	margin: auto;
+}
+
+h1 {
+	margin: 0;
+	font-size: 50px;
+	color: black;
+}
+p {
+	font-size: 20px;
+	margin: 0;
+}
+
+
+.start {
+	font-size: 30px;
+	background-color: rgb(54, 54, 138);
+	margin-left: 10%;
+    padding: 15px 15px;
+	border: none;
+	color: #fff;
+	border-radius: 20px;
+	float: left;
+	display: inline-block;
+}
+
+.next {
+	float: right;
+	background-color: rgb(54, 54, 138);
+	margin-right: 10%;
+    padding: 15px 20px;
+	border: none;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.main{
+	margin-top: 15%;
+}
+
+.emoji{
+    display: inline;
+    width: 6.25em;
+	height: 6.25em;
+	position: relative;
+}
+
+.emo5{
+	font-size: 5.625em;
+}
+
+.emo4{
+	font-size: 6.25em;
+}
+
+.emo3{
+	font-size: 6.875em;
+}
+
+.emo2{
+	font-size: 7.5em;
+}
+
+.emo1{
+	font-size: 8.125em;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+#div {
+  width: 11em;
+  height: 11em;
+  border: 1px solid black;
+  display: inline-block;
+}
