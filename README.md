@@ -19,5 +19,5 @@ The workflow should be easy to understand by anyone and in next part we want use
 **Expected Deadline:** 30-09-2020
 
 ### **Contributors**
-* Devang Joshi (https://github.com/devang-joshi-dj/)
-* Himani Dalal (https://github.com/himani027/)
+* [ Devang Joshi ](https://github.com/devang-joshi-dj/)
+* [ Himani Dalal ](https://github.com/himani027/)
