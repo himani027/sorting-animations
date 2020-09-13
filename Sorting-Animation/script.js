@@ -76,8 +76,31 @@ $(document).ready(
                 });
             });
         });
+    })
+);
 
-    //  $(".emo2").click(function(){
-    // $(".emo2").replaceWith("<div class='emoji emo2'>&#128512;</div>");
-    //  });
-    }));
+$(document).ready(function(){
+    setInterval(function(){
+        var a = $('.container1 .emo5').length;
+        var b = $('.container2 .emo4').length;
+        var c = $('.container3 .emo3').length;
+        var d = $('.container4 .emo2').length;
+        var e = $('.container5 .emo1').length;
+        
+        if(a == 1){
+            $(".emo5").replaceWith("<div class='emoji emo5'>&#128512;</div>");
+        }
+        if(b == 1){
+            $(".emo4").replaceWith("<div class='emoji emo4'>&#128512;</div>");
+        }
+        if(c == 1){
+            $(".emo3").replaceWith("<div class='emoji emo3'>&#128512;</div>");
+        }
+        if(d == 1){
+            $(".emo2").replaceWith("<div class='emoji emo2'>&#128512;</div>");
+        }
+        if(e == 1){
+            $(".emo1").replaceWith("<div class='emoji emo1'>&#128512;</div>");
+        }
+    }, 1);
+});

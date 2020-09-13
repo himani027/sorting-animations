@@ -3,8 +3,7 @@
 }
 
 body {
-    background-image: linear-gradient(#fcba, #abe);
-    height: 39.5em;
+    background-color: #fcba;
 }
 
 .center {
@@ -23,7 +22,6 @@ p {
 	font-size: 20px;
 	margin: 0;
 }
-
 
 .start {
 	font-size: 30px;
@@ -56,6 +54,7 @@ p {
     width: 6.25em;
 	height: 6.25em;
 	position: relative;
+	cursor: default;
 }
 
 .emo5{
