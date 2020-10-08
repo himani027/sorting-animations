@@ -1,4 +1,3 @@
 1. Fix position of smiley before and after animation on diff. screens.
-2. Disable Start demo button after single click. Multiple clicks on start button is making animation start again.
-3. On next page after sorting smiley's if again its position is changed everything gets disturbed.
-4. Count steps taken by user for sorting.
+2. On next page after sorting smiley's if again its position is changed everything gets disturbed.
+3. Count steps taken by user for sorting.

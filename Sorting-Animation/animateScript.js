@@ -1,6 +1,9 @@
+$("#reload").attr("disabled", true);
+$(".reload, .reload a").addClass("emonocursor");
 $(document).ready(
-    $(".start").click(function(){
-
+    $(".demo").click(function(){
+        $(this).prop('disabled', true);
+        $(".start, .start a").addClass("emonocursor");
         $(".emo1").animate({top: '-9.375rem'});
         $(".emo2").animate({top: '+9.375rem'});
         $(".emo1").animate({left: '+10.9375rem'});
@@ -66,7 +69,13 @@ $(document).ready(
                                             $(".emo4").animate({right: '+21.25rem'});
                                             $(".emo5").animate({right: '+38.125rem'});
                                             $(".emo4").animate({top: '+0rem'});
-                                            $(".emo5").animate({top: '-0rem'});
+                                            $(".emo5").animate({top: '-0rem'},
+
+                                            function(){
+                                                $("#reload").css("background-color", "rgb(54, 54, 138)");
+                                                $('#reload').attr("disabled", false);
+                                                $(".reload, .reload a").removeClass("emonocursor");
+                                            });
                                         });
                                     });
                                 });
@@ -76,8 +85,5 @@ $(document).ready(
                 });
             });
         });
-
-    //  $(".emo2").click(function(){
-    // $(".emo2").replaceWith("<div class='emoji emo2'>&#128512;</div>");
-    //  });
-    }));
+    })
+);
